@@ -1,7 +1,9 @@
 const OpenAI = require("openai");
- 
+
+const apiKey = "sk-<YOUR-API-KEY>";
+
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey
 });
  
 input_data = [
