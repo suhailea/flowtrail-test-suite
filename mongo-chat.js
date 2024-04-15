@@ -1,6 +1,6 @@
 const OpenAI = require("openai");
 
-const apiKey = "sk-<YOUR-API-KEY>";
+const apiKey = "********************";
 
 const openai = new OpenAI({
   apiKey
